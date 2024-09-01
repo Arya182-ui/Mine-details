@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - My Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t39.30808-6/446651430_927080409220711_3015799197159531467_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=40tE6E7gOFMQ7kNvgFieCFv&_nc_ht=scontent.fagr1-1.fna&oh=00_AYAeUu9m5RuVohLAHq_TDJqiwX01jpeUMN60q5rIdJdK3A&oe=66D9E1B4" alt="Profile Picture" class="profile-pic">
+            Ayush Gangwar
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Project Details Section -->
+    <section id="project-details" class="container">
+        <h2 class="text-center">Project Details</h2>
+        <div class="project-card">
+            <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/09/AI-Virtual-Assistant-using-Python.jpg" alt="My Assistant" class="img-fluid mb-3">
+            <h3>My Assistant</h3>
+            <p><strong>Overview:</strong></p>
+            <p><strong>My Assistant</strong> is a versatile Python-based tool designed to streamline various tasks and provide useful functionalities. It integrates with different applications, performs web searches, manages files, and even entertains with games and jokes. This project aims to enhance productivity and provide a seamless user experience.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li><strong>Search on Wikipedia:</strong> Look up information on Wikipedia.</li>
+                <li><strong>Open Apps:</strong> Launch applications such as YouTube, Chrome, PowerPoint, File Explorer, Recycle Bin, Stack Overflow, and Email.</li>
+                <!-- List all features here -->
+            </ul>
+            <p><strong>Installation:</strong></p>
+            <p>To get started with <strong>My Assistant</strong>, follow these steps:</p>
+            <ol>
+                <li><strong>Clone the Repository:</strong></li>
+            </ol>
+            <pre><code>git clone https://github.com/yourusername/your-repository-name.git</code></pre>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Ayush Gangwar</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
