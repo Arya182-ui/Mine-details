@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1515; /* Light Grey Background */
+    color: #212121; /* Dark Grey Text */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #00bcd4; /* Teal */
+}
+
+h1.name {
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold; /* Makes the text bold */
+    color: #ff5722; /* Orange text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adds a shadow for better visibility */
+}
+
+h4 {
+    margin-bottom: 15px; /* Space below h4 */
+    font-size: 1.5rem; /* Font size for h4 */
+    color: #ff5722; /* Orange text color */
+    font-weight: bold; /* Makes the text bold */
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: hsla(180, 3%, 6%, 0.614); /* Teal for links */
+}
+
+a:hover {
+    color: #ff5722; /* Orange for link hover */
+}
+
+ul {
+    padding: 0;
+}
+
+.list-inline {
+    padding: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333; /* Dark background for navigation */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar-brand img {
+    border-radius: 50%; /* Ensure the profile picture is circular */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+}
+
+nav a {
+    color: #ffffff; /* White text for navigation links */
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #ff5722; /* Orange text on hover */
+}
+
+/* Header Section */
+.header-section {
+    background-color: #333; /* Dark background color for the header */
+    color: #ffffff; /* White Text */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    color: #ff5722; /* Orange */
+}
+
+.header-section .btn {
+    margin-top: 20px;
+    background-color: #ff5722; /* Orange */
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.header-section .btn:hover {
+    background-color: #e64a19; /* Darker Orange */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+
+/* General Image Styling */
+.project-card img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for general images */
+    margin-bottom: 15px; /* Space below image */
+}
+
+/* Last Project Card Image */
+#projects .project-card:last-of-type img {
+    width: 120px; /* Set a smaller width */
+    height: 120px; /* Set a fixed height to match the width */
+    border-radius: 50%; /* Make the image circular */
+    margin: 0 auto; /* Center the image */
+    display: block; /* Ensure the image is centered */
+}
+
+/* Image Styling */
+img {
+    width: 180px; /* Adjust width as needed */
+    height: 180px; /* Adjust height as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #212121; /* Dark Grey */
+    color: #ffffff; /* White Text */
+    text-align: center;
+}
