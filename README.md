@@ -42,9 +42,6 @@ Feel free to reach out to me through the following platforms:
 - **Email:** [arya119000@gmail.com](mailto:arya119000@gmail.com)
 - **LinkedIn:** [Ayush Gangwar](https://www.linkedin.com/in/ayush-gangwar-3b3526237)
 
-Thank you for visiting my portfolio!
+Thank you for visiting my Github
 
 ---
-
-**Note:** Replace `#` with the actual links to your projects and add more details as necessary.
-# Mine-details
